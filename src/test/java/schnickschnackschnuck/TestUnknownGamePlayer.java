@@ -18,7 +18,7 @@ public class TestUnknownGamePlayer {
 	public void shouldProvideUnknownChoiceNoMatterWhat() {
 		assertTrue(GameUtils.isUnkownChoice(unkownPlayer
 				.provideChoice(GameUtils.emptyGameChoiceList())));
-		assertTrue(GameUtils.isUnkownChoice(unkownPlayer
+		assertFalse(GameUtils.isUnkownChoice(unkownPlayer
 				.provideChoice(GameUtils.generateGameChoiceList(new Paper(),
 						new Scissors()))));
 	}
