@@ -20,7 +20,7 @@ public class TestAbstractGamePlayer {
 			AbstractGamePlayer namedPlayer) {
 		String playerName = "John Doe";
 		namedPlayer.setPlayerName(playerName);
-		assertEquals(playerName, namedPlayer.getPlayerName());
+		assertEquals(playerName + " test", namedPlayer.getPlayerName());
 	}
 
 	@Test
