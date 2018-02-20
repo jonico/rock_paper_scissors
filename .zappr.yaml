@@ -10,7 +10,7 @@
 
 #   by default, every pull request requires two approvals
 #   uncomment this line to change it to three
-#   minimum: 3
+    minimum: 1
 
 #   by default, the pull request opener can approve its own pull request
 #   uncomment this line to ignore approvals from the pull request opener
